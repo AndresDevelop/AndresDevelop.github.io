@@ -31,7 +31,7 @@
     font-weight: 300;
     text-transform: uppercase;
 }
-#videoGradiente{
+#videoGradient{
 
 	position: absolute;
 	width: 100%;
@@ -105,40 +105,26 @@
 	font-size: 20px;
 }
 
-div#logo > img{
-	width: 100vw;
-	height: 100vh;
-	object-fit: cover;
+.Services{
+
+	background-color: #f2f3f3;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
-.Centrar{
-	text-align: center;
+.Services h2{
+
+	font-family:'Raleway', sans-serif;
+	color: black;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
 }
 
-article{
-	background-color: grey;
-}
-article > p{
+.Services p {
+	font-family:'Raleway', sans-serif;
+	font-size: 20px;
 
-	width: 80%;
-	margin: 0px auto;
-}
-.Contact{
-	width: 80%;
-	margin: 0px auto;
-	text-align: center;
-	background-color: white;
-}
-
-
-
-input{
-	border: none;
-	border-bottom: 1px solid black;
-}
-
-footer{
-	background-color: lightslategrey;
 }
 
 
