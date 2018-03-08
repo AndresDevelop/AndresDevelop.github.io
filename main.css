@@ -124,7 +124,27 @@
 .Services p {
 	font-family:'Raleway', sans-serif;
 	font-size: 20px;
+}
 
+.HeaderPortafolio{
+	background-color: #EA2E49;	
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.HeaderPortafolio h2{
+	font-family:'Raleway', sans-serif;
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.HeaderPortafolio p{
+	font-family:'Raleway', sans-serif;
+	font-size: 20px;
+	color: white;
+	opacity: 0.65;
 }
 
 .Portafolio ul{
@@ -133,22 +153,38 @@
 }
 
 .Portafolio ul li{
-	flex-basis: 33.33%;
+	flex-basis: 100%;
 }
 
 .Portafolio ul li a >img{
 	width: 100%;
 }
 
+.Portafolio-Item{
+	padding: 80px 0;
+}
+
+.thumbail{
+	position: relative;
+}
+
+.thumbail img{
+	
+	position: absolute;
+    top: 7%;
+    left: 12%;
+    width: 76.2%;
+    z-index: 100;
+    height: 74.7%;
+}
+
 
 
 @media only screen  and (min-width: 768px){
 
-.Images:nth-child(2n + 1){
-    flex-basis: 33.33%;
+.Portafolio ul li{
+	flex-basis: 33.33%;
+	}
+
 }
-.Images:nth-child(2n){
-    flex-basis: 33.33%;
-}}
 	
-}
