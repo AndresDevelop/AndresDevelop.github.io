@@ -465,7 +465,9 @@ $(document.body).on('appear', '.animatedParent', function(e, $affected){
   var ele = $(this).find('.animated');
   var parent = $(this);
   
-            $(".Services").css("background-color", "grey");//
+            // $(".Services").css("background-color", "grey");//
+            $("#Header").attr("class", "header fixed HeaderScroll");
+            $(".MenuScrolled").attr("class", "MenuScrolled MenuScroll");
 
   if(parent.attr('data-sequence') != undefined){
     
@@ -496,7 +498,11 @@ $(document.body).on('appear', '.animatedParent', function(e, $affected){
 
  $(document.body).on('disappear', '.animatedParent', function(e, $affected) {
   if(!$(this).hasClass('animateOnce')){
-    $(".Services").css("background-color", "blue")// This is it
+    // $(".Services").css("background-color", "blue")// This is it
+    $("#Header").attr("class", "header fixed ");
+            $(".MenuScrolled").attr("class", "MenuScrolled");
+
+
 
     $(this).find('.animated').removeClass('go');
    }
