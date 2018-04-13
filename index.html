@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>YebrailAndresPacheco</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,40 +8,97 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="animations.css">
 	<link rel="icon" type="image/png" href="https://www.fosterandpartners.com/static/assets/images/ico/favicon-32x32.png?v=2.2.0.2617">
-	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="">
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
 
 	<section class="header fixed" id="Header">
 		<div class="row">
 			<div class="col-11 col-md-11 col-sm-11">
 				<ul class="Right-Menu">
-					<li><a href="#" class="MenuScrolled">About</a></li>
-					<li><a href="#" class="MenuScrolled">What i do best</a></li>
-					<li><a href="#Projects" class="MenuScrolled">Portafolio</a></li>
-					<li><a href="#" class="MenuScrolled">Contact</a></li>
+					<li>
+						<a href="#" class="MenuScrolled">About</a>
+					</li>
+					<li>
+						<a href="#" class="MenuScrolled">What i do best</a>
+					</li>
+					<li>
+						<a href="#Projects" class="MenuScrolled">Portafolio</a>
+					</li>
+					<li>
+						<a href="#" class="MenuScrolled">Contact</a>
+					</li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section class="Video">
-			<video autoplay muted loop id="myVideo">
-  				<source src="http://stegaru.com/resources/movie.mp4">
-			</video>
-			<div id="videoGradient"></div>
-			<div class="row">
-				<div class="col-md-12 col-sm-12 col-12 text-center Profile " >
-					<h2>Hello,I'm Yebrail andres pacheco</h2>
-					<p class="animated bounceIn">An <strong> Electronic Engineer and passionate front-end developer</strong> living in Medellin, Colombia</p>
-					<p class="animated bounceIn"><strong>DOING THE IMPOSSIBLE, JUST BETTER</strong></p>
-				</div>
+		<video autoplay muted loop id="myVideo">
+			<source src="http://stegaru.com/resources/movie.mp4">
+		</video>
+		<div id="videoGradient"></div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-12 text-center Profile ">
+				<h2>Hello,I'm Yebrail andres pacheco</h2>
+				<p class="animated bounceIn">An
+					<strong> Electronic Engineer and passionate front-end developer</strong> living in Medellin, Colombia</p>
+				<p class="animated bounceIn">
+					<strong>DOING THE IMPOSSIBLE, JUST BETTER</strong>
+				</p>
 			</div>
+		</div>
 	</section>
 	<section class="Services text-center" id="About">
 		<h2>Services Provided</h2>
-		<p>We are a tight-knit team of the brightest minds in art, engineering, innovation and community building that turns people’s dreams into reality</p>
+		<nav>
+			<ul style="display : flex">
+				<li class="col-md-3">
+					<span>
+						<img src="http://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" class="img-responsive" width="100%"
+						    alt="">
+					</span>
+					<h3 class="Padding">
+						<strong>Desing to ReactJS</strong>
+					</h3>
+					<p style="color : #888">The most important JavaScript library for building user interfaces</p>
+				</li>
+				<li class="col-md-3">
+					<span>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/AngularJS_logo.svg" class="img-responsive" width="100%" height="97.38px" alt="">
+					</span>
+					<h3  class="Padding">
+						<strong>Desing to AngularJS</strong>
+					</h3>
+					<p style="color : #888">Superheroic JavaScript MVW Framework, It was  designed for building web-apps</p>
+
+				</li>
+				<li class="col-md-3">
+					<span>
+						<img src="https://clipart.info/images/ccovers/1499794874html5-js-css3-logo-png.png"  class="img-responsive" width="100%"
+						    alt="">
+					</span>
+					<h3 style="padding-top:8px" class="Padding">
+						<strong>Desing to AngularJS</strong>
+					</h3>
+					<p style="color : #888">Responsive, mobile ready, hand coded html/css every time</p>
+
+				</li>
+				<li class="col-md-3">
+					<span>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/8/81/JQuery_logo_text.svg" class="img-responsive" width="100%" height="97.38px"
+						    alt="">
+					</span>
+					<h3 class="Padding">
+						<strong>Desing to JQuery</strong>
+					</h3>
+					<p style="color : #888">jQuery: The Write Less, Do More, JavaScript Library.</p>
+
+				</li>
+			</ul>
+		</nav>
 	</section>
 	<section class="HeaderPortafolio text-center">
 		<h2>Portafolio</h2>
@@ -48,88 +106,110 @@
 	</section>
 	<div class="animatedParent">
 		<section class="Portafolio-Item animated fadeInDown" id="Projects">
-		<div class="row WhiteGrey">
-			
-			<div class="col-md-6 col-sm-12">
-				<h2>El Viaje de din</h2>
-				<h3>El viaje de din is a game that provides support and help for children with learning issues such as dyslexia and dysgraphia</h3>
-				<a href="https://play.google.com/store/apps/details?id=com.juegodin.gabo&hl=es"><button type="button" class="btn btn-info">Visit the site</button></a>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="thumbail">
-					<svg viewBox="50 130 411 256" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"><path d="m89.12 343.6h332.05v14.308h-332.05z"></path><path d="m94.89 136.35h320.5c3.173 0 5.768 2.596 5.768 5.768v205.45c0 3.173-2.596 5.768-5.768 5.768h-320.5c-3.173 0-5.768-2.595-5.768-5.768v-205.45c0-3.173 2.596-5.768 5.768-5.768" fill="#1a1a1a"></path><path fill="#e6e6e6" stroke="#000" stroke-width=".125" d="m99.73 148.52h312.42v194.21h-312.42z"></path><path fill="#ccc" d="m50.86 357.85h410.28v10.95h-410.28z"></path><path d="m227.68 357.85h56.632v1.706c0 2.108-1.725 3.832-3.832 3.832h-48.967c-2.108 0-3.832-1.725-3.832-3.832v-1.706" fill="#999"></path><path d="m256 368.8h204.63c.094 0 .17.077.17.17 0 3.18-14.04 5.968-22.38 6.673h-182.42-182.42c-8.338-.704-22.38-3.492-22.38-6.673 0-.094.077-.17.17-.17h204.63" fill="#b3b3b3"></path><circle r="1.2" transform="matrix(1.30067 1.32352-1.32373 1.30047 255.13 142.18)" fill="#424242"></circle><circle r="1.2" transform="matrix(1.0068 1.02443-1.02459 1.0066 255.13 142.18)" fill="#595959"></circle><path d="m256.36 140.97c.667.679.658 1.77-.022 2.437-.125.124-.265.224-.414.301-.48-.256-.896-.718-1.127-1.319-.258-.669-.232-1.365.019-1.906.544-.101 1.127.062 1.544.487" fill="#636363"></path></svg>
-					<img src="fondoinicio.jpg">
+			<div class="row WhiteGrey">
+
+				<div class="col-md-6 col-sm-12">
+					<h2>El Viaje de din</h2>
+					<h3>El viaje de din is a game that provides support and help for children with learning issues such as dyslexia and dysgraphia</h3>
+					<a href="https://play.google.com/store/apps/details?id=com.juegodin.gabo&hl=es">
+						<button type="button" class="btn btn-info">Visit the site</button>
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<div class="thumbail">
+						<svg viewBox="50 130 411 256" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+						    image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
+							<path d="m89.12 343.6h332.05v14.308h-332.05z"></path>
+							<path d="m94.89 136.35h320.5c3.173 0 5.768 2.596 5.768 5.768v205.45c0 3.173-2.596 5.768-5.768 5.768h-320.5c-3.173 0-5.768-2.595-5.768-5.768v-205.45c0-3.173 2.596-5.768 5.768-5.768"
+							    fill="#1a1a1a"></path>
+							<path fill="#e6e6e6" stroke="#000" stroke-width=".125" d="m99.73 148.52h312.42v194.21h-312.42z"></path>
+							<path fill="#ccc" d="m50.86 357.85h410.28v10.95h-410.28z"></path>
+							<path d="m227.68 357.85h56.632v1.706c0 2.108-1.725 3.832-3.832 3.832h-48.967c-2.108 0-3.832-1.725-3.832-3.832v-1.706" fill="#999"></path>
+							<path d="m256 368.8h204.63c.094 0 .17.077.17.17 0 3.18-14.04 5.968-22.38 6.673h-182.42-182.42c-8.338-.704-22.38-3.492-22.38-6.673 0-.094.077-.17.17-.17h204.63"
+							    fill="#b3b3b3"></path>
+							<circle r="1.2" transform="matrix(1.30067 1.32352-1.32373 1.30047 255.13 142.18)" fill="#424242"></circle>
+							<circle r="1.2" transform="matrix(1.0068 1.02443-1.02459 1.0066 255.13 142.18)" fill="#595959"></circle>
+							<path d="m256.36 140.97c.667.679.658 1.77-.022 2.437-.125.124-.265.224-.414.301-.48-.256-.896-.718-1.127-1.319-.258-.669-.232-1.365.019-1.906.544-.101 1.127.062 1.544.487"
+							    fill="#636363"></path>
+						</svg>
+						<img src="fondoinicio.jpg">
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 	</div>
 	<div class="animatedParent">
 		<section class="Portafolio-Item animated fadeInDown" id="Projects">
-		<div class="row">
-			
-		
-			<div class="col-md-6 col-sm-12">
-				<div class="thumbail">
-					<svg viewBox="50 130 411 256" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"><path d="m89.12 343.6h332.05v14.308h-332.05z"></path><path d="m94.89 136.35h320.5c3.173 0 5.768 2.596 5.768 5.768v205.45c0 3.173-2.596 5.768-5.768 5.768h-320.5c-3.173 0-5.768-2.595-5.768-5.768v-205.45c0-3.173 2.596-5.768 5.768-5.768" fill="#1a1a1a"></path><path fill="#e6e6e6" stroke="#000" stroke-width=".125" d="m99.73 148.52h312.42v194.21h-312.42z"></path><path fill="#ccc" d="m50.86 357.85h410.28v10.95h-410.28z"></path><path d="m227.68 357.85h56.632v1.706c0 2.108-1.725 3.832-3.832 3.832h-48.967c-2.108 0-3.832-1.725-3.832-3.832v-1.706" fill="#999"></path><path d="m256 368.8h204.63c.094 0 .17.077.17.17 0 3.18-14.04 5.968-22.38 6.673h-182.42-182.42c-8.338-.704-22.38-3.492-22.38-6.673 0-.094.077-.17.17-.17h204.63" fill="#b3b3b3"></path><circle r="1.2" transform="matrix(1.30067 1.32352-1.32373 1.30047 255.13 142.18)" fill="#424242"></circle><circle r="1.2" transform="matrix(1.0068 1.02443-1.02459 1.0066 255.13 142.18)" fill="#595959"></circle><path d="m256.36 140.97c.667.679.658 1.77-.022 2.437-.125.124-.265.224-.414.301-.48-.256-.896-.718-1.127-1.319-.258-.669-.232-1.365.019-1.906.544-.101 1.127.062 1.544.487" fill="#636363"></path></svg>
-					<img src="01_ki9xez_c_scale,w_748.jpg">
+			<div class="row">
+
+
+				<div class="col-md-6 col-sm-12">
+					<div class="thumbail">
+						<svg viewBox="50 130 411 256" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+						    image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
+							<path d="m89.12 343.6h332.05v14.308h-332.05z"></path>
+							<path d="m94.89 136.35h320.5c3.173 0 5.768 2.596 5.768 5.768v205.45c0 3.173-2.596 5.768-5.768 5.768h-320.5c-3.173 0-5.768-2.595-5.768-5.768v-205.45c0-3.173 2.596-5.768 5.768-5.768"
+							    fill="#1a1a1a"></path>
+							<path fill="#e6e6e6" stroke="#000" stroke-width=".125" d="m99.73 148.52h312.42v194.21h-312.42z"></path>
+							<path fill="#ccc" d="m50.86 357.85h410.28v10.95h-410.28z"></path>
+							<path d="m227.68 357.85h56.632v1.706c0 2.108-1.725 3.832-3.832 3.832h-48.967c-2.108 0-3.832-1.725-3.832-3.832v-1.706" fill="#999"></path>
+							<path d="m256 368.8h204.63c.094 0 .17.077.17.17 0 3.18-14.04 5.968-22.38 6.673h-182.42-182.42c-8.338-.704-22.38-3.492-22.38-6.673 0-.094.077-.17.17-.17h204.63"
+							    fill="#b3b3b3"></path>
+							<circle r="1.2" transform="matrix(1.30067 1.32352-1.32373 1.30047 255.13 142.18)" fill="#424242"></circle>
+							<circle r="1.2" transform="matrix(1.0068 1.02443-1.02459 1.0066 255.13 142.18)" fill="#595959"></circle>
+							<path d="m256.36 140.97c.667.679.658 1.77-.022 2.437-.125.124-.265.224-.414.301-.48-.256-.896-.718-1.127-1.319-.258-.669-.232-1.365.019-1.906.544-.101 1.127.062 1.544.487"
+							    fill="#636363"></path>
+						</svg>
+						<img src="./01_ki9xez_c_scale,w_748.jpg">
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<h2>Marlon arquictecto</h2>
+					<h3>Responsive, mobile-ready website, build on AngularJS, showing the amazing architect's talent</h3>
+					<a href="http://www.marlonpachecoarquitecto.com/">
+						<button type="button" class="btn btn-info">Visit the site</button>
+					</a>
 				</div>
 			</div>
-				<div class="col-md-6 col-sm-12">
-				<h2>Marlon arquictecto</h2>
-				<h3>Responsive, mobile-ready website, build on AngularJS, showing the amazing architect's talent</h3>
-				<a href="http://www.marlonpachecoarquitecto.com/"><button type="button" class="btn btn-info">Visit the site</button></a>
-			</div>
-		</div>
 		</section>
 	</div>
 
 	<div class="animatedParent">
 		<section class="Portafolio-Item animated fadeInDown" id="Projects">
-		<div class="row WhiteGrey">
-			
-			<div class="col-md-6 col-sm-12">
-				<h2>My portafolio Website</h2>
-				<h3>I've designed and built this page. It is hosted on Gihub Pages</h3>
-				<a href="https://andresdevelop.github.io/"><button type="button" class="btn btn-info">Visit the site</button></a>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="thumbail">
-					<svg viewBox="50 130 411 256" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"><path d="m89.12 343.6h332.05v14.308h-332.05z"></path><path d="m94.89 136.35h320.5c3.173 0 5.768 2.596 5.768 5.768v205.45c0 3.173-2.596 5.768-5.768 5.768h-320.5c-3.173 0-5.768-2.595-5.768-5.768v-205.45c0-3.173 2.596-5.768 5.768-5.768" fill="#1a1a1a"></path><path fill="#e6e6e6" stroke="#000" stroke-width=".125" d="m99.73 148.52h312.42v194.21h-312.42z"></path><path fill="#ccc" d="m50.86 357.85h410.28v10.95h-410.28z"></path><path d="m227.68 357.85h56.632v1.706c0 2.108-1.725 3.832-3.832 3.832h-48.967c-2.108 0-3.832-1.725-3.832-3.832v-1.706" fill="#999"></path><path d="m256 368.8h204.63c.094 0 .17.077.17.17 0 3.18-14.04 5.968-22.38 6.673h-182.42-182.42c-8.338-.704-22.38-3.492-22.38-6.673 0-.094.077-.17.17-.17h204.63" fill="#b3b3b3"></path><circle r="1.2" transform="matrix(1.30067 1.32352-1.32373 1.30047 255.13 142.18)" fill="#424242"></circle><circle r="1.2" transform="matrix(1.0068 1.02443-1.02459 1.0066 255.13 142.18)" fill="#595959"></circle><path d="m256.36 140.97c.667.679.658 1.77-.022 2.437-.125.124-.265.224-.414.301-.48-.256-.896-.718-1.127-1.319-.258-.669-.232-1.365.019-1.906.544-.101 1.127.062 1.544.487" fill="#636363"></path></svg>
-					<img src="PersonalWebsite.png">
+			<div class="row WhiteGrey">
+
+				<div class="col-md-6 col-sm-12">
+					<h2>My portafolio Website</h2>
+					<h3>I've designed and built this page. It is hosted on Gihub Pages</h3>
+					<a href="https://andresdevelop.github.io/">
+						<button type="button" class="btn btn-info">Visit the site</button>
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<div class="thumbail">
+						<svg viewBox="50 130 411 256" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+						    image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
+							<path d="m89.12 343.6h332.05v14.308h-332.05z"></path>
+							<path d="m94.89 136.35h320.5c3.173 0 5.768 2.596 5.768 5.768v205.45c0 3.173-2.596 5.768-5.768 5.768h-320.5c-3.173 0-5.768-2.595-5.768-5.768v-205.45c0-3.173 2.596-5.768 5.768-5.768"
+							    fill="#1a1a1a"></path>
+							<path fill="#e6e6e6" stroke="#000" stroke-width=".125" d="m99.73 148.52h312.42v194.21h-312.42z"></path>
+							<path fill="#ccc" d="m50.86 357.85h410.28v10.95h-410.28z"></path>
+							<path d="m227.68 357.85h56.632v1.706c0 2.108-1.725 3.832-3.832 3.832h-48.967c-2.108 0-3.832-1.725-3.832-3.832v-1.706" fill="#999"></path>
+							<path d="m256 368.8h204.63c.094 0 .17.077.17.17 0 3.18-14.04 5.968-22.38 6.673h-182.42-182.42c-8.338-.704-22.38-3.492-22.38-6.673 0-.094.077-.17.17-.17h204.63"
+							    fill="#b3b3b3"></path>
+							<circle r="1.2" transform="matrix(1.30067 1.32352-1.32373 1.30047 255.13 142.18)" fill="#424242"></circle>
+							<circle r="1.2" transform="matrix(1.0068 1.02443-1.02459 1.0066 255.13 142.18)" fill="#595959"></circle>
+							<path d="m256.36 140.97c.667.679.658 1.77-.022 2.437-.125.124-.265.224-.414.301-.48-.256-.896-.718-1.127-1.319-.258-.669-.232-1.365.019-1.906.544-.101 1.127.062 1.544.487"
+							    fill="#636363"></path>
+						</svg>
+						<img src="PersonalWebsite.png">
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 	</div>
 
 </body>
 <script type="text/javascript" src="css3-animate-it.js"></script>
-<script type="text/javascript">//<![CDATA[ 
-(function() {
-    var configuration = {
-    "token": "a1bdbe63a96f63d52259c0fb1fb7a126",
-    "entryScript": {
-        "type": "timeout",
-        "timeout": 3000,
-        "capping": {
-            "limit": 5,
-            "timeout": 24
-        }
-    },
-    "exitScript": {
-        "enabled": true
-    },
-    "popUnder": {
-        "enabled": true
-    }
-};
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = "https://cdn.shorte.st/link-converter.min.js";
-    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
-    var entry = document.getElementsByTagName('script')[0];
-    entry.parentNode.insertBefore(script, entry);
-})();
-//]]></script>
+
 </html>

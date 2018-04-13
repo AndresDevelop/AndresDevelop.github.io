@@ -1,230 +1,223 @@
-*{
-	margin: 0px;
-	padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.PreHeader{
-
-	position: absolute;
-	width: 100%;
-	z-index: 1000;
+.PreHeader {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
 }
 
-.Right-Menu{
-    list-style: none;
-    position: absolute;
-    right: 0px;
-    top: 0px;
+.Right-Menu {
+  list-style: none;
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }
 
- ul li{
-    display: inline-block;
+ul li {
+  display: inline-block;
 }
-.MenuScroll{
-	color: black !important;
-}
-
-.MenuScrolled{
-	color: white;
+.MenuScroll {
+  color: black !important;
 }
 
-.Right-Menu li a{
-    display: block;
-    text-decoration: none !important;
-    color: white;
-    padding: 10px;
-   	font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    text-transform: uppercase;
-}
-#videoGradient{
-
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	z-index: 10;
-	opacity: 0.80;
-	background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.95) 74%, rgba(0,0,0,0.95) 100%);
-}
-.col-md-6{
-	padding-right: 60px;
-}
-.header{
-
-	position: relative;
-	width: 100%;
-	z-index: 999;
+.MenuScrolled {
+  color: white;
 }
 
-.header.fixed{
-	position: fixed;
-	padding: 30px 0;
-	height: 78px;
+.Right-Menu li a {
+  display: block;
+  text-decoration: none !important;
+  color: white;
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+#videoGradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  opacity: 0.8;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.95) 74%,
+    rgba(0, 0, 0, 0.95) 100%
+  );
+}
+.col-md-6 {
+  padding-right: 60px;
+}
+.header {
+  position: relative;
+  width: 100%;
+  z-index: 999;
 }
 
-.Portafolio-Item .row{
-
-	width: 100%;
-	margin: 0 auto;
-	padding-top: 80px;
+.header.fixed {
+  position: fixed;
+  padding: 30px 0;
+  height: 78px;
 }
 
-.WhiteGrey{
-	background-color: #f2f3f3;
-
+.Portafolio-Item .row {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 80px;
 }
 
-
-
-.Portafolio-Item h2{
-	font-family: 'Raleway', sans-serif;
-	text-transform: uppercase;
-	margin-left: 60px;
-	margin-bottom: 40px;
+.WhiteGrey {
+  background-color: #f2f3f3;
 }
 
-.Portafolio-Item h3{
-	font-family: 'Raleway', sans-serif;
-	margin-left: 80px;
-	margin-bottom: 40px;
+.Portafolio-Item h2 {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  margin-left: 60px;
+  margin-bottom: 40px;
 }
 
-.Portafolio-Item a{
-	margin-left: 80px;
-	margin-bottom: 40px;
+.Portafolio-Item h3 {
+  font-family: "Raleway", sans-serif;
+  margin-left: 80px;
+  margin-bottom: 40px;
+}
+.Padding{
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.Portafolio-Item a {
+  margin-left: 80px;
+  margin-bottom: 40px;
 }
 
-
-
-.Video{
-	
-	position: relative;
-	min-height: 100vh;
-	overflow: hidden;
+.Video {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
 }
 #myVideo {
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 1;
-    overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  overflow: hidden;
 }
 
-.Profile{
-
-	position: relative;
-	z-index: 99;
-	margin-top: 20%;
+.Profile {
+  position: relative;
+  z-index: 99;
+  margin-top: 20%;
 }
 
-.Profile h2{
-
-	color: #fff;
-    font-weight: 600;
-    padding-bottom: 5px;
-    margin-bottom: 35px;
-    margin-top: 80px;
-    position: relative;
-    font-size: 40px;
-    text-transform: uppercase;
+.Profile h2 {
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 5px;
+  margin-bottom: 35px;
+  margin-top: 80px;
+  position: relative;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
-.Profile p{
-	color: white;
-	font-family:'Raleway', sans-serif;
-	font-size: 20px;
+.Profile p {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
 }
 
-.Services{
-
-	background-color: #f2f3f3;
-	padding-top: 40px;
-	padding-bottom: 40px;
+.Services {
+  background-color: #f2f3f3;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.Services h2{
+.Services h2 {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
 
-	font-family:'Raleway', sans-serif;
-	color: black;
-	font-size: 30px;
-	text-transform: uppercase;
-	margin-bottom: 40px;
+h1,
+h2,
+h3,
+p {
+  font-family: "Raleway", sans-serif;
 }
 
 .Services p {
-	font-family:'Raleway', sans-serif;
-	font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
 }
 
-.HeaderPortafolio{
-	background-color: #EA2E49;	
-	padding-top: 40px;
-	padding-bottom: 40px;
+.HeaderPortafolio {
+  background-color: #ea2e49;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.HeaderPortafolio h2{
-	font-family:'Raleway', sans-serif;
-	color: white;
-	font-size: 30px;
-	text-transform: uppercase;
-	margin-bottom: 40px;
+.HeaderPortafolio h2 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
-.HeaderPortafolio p{
-	font-family:'Raleway', sans-serif;
-	font-size: 20px;
-	color: white;
-	opacity: 0.65;
+.HeaderPortafolio p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: white;
+  opacity: 0.65;
 }
 
-.Portafolio ul{
-	display: flex;
-	flex-wrap: wrap;
+.Portafolio ul {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.Portafolio ul li{
-	flex-basis: 100%;
+.Portafolio ul li {
+  flex-basis: 100%;
 }
 
-.Portafolio ul li a >img{
-	width: 100%;
+.Portafolio ul li a > img {
+  width: 100%;
 }
 
-.HeaderScroll{
-
-	 box-shadow: 0 0px 4px rgba(0,0,0,0.2);
-	 background-color: white;
+.HeaderScroll {
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
 
-.thumbail{
-	position: relative;
+.thumbail {
+  position: relative;
 }
 
-.thumbail img{
-
-	position: absolute;
-    top: 7%;
-    left: 12%;
-    width: 76.2%;
-    z-index: 100;
-    height: 74.7%;
+.thumbail img {
+  position: absolute;
+  top: 7%;
+  left: 12%;
+  width: 76.2%;
+  z-index: 100;
+  height: 74.7%;
 }
 
-
-
-@media only screen  and (min-width: 768px){
-
-.Portafolio ul li{
-	flex-basis: 33.33%;
-	}
-
+@media only screen and (min-width: 768px) {
+  .Portafolio ul li {
+    flex-basis: 33.33%;
+  }
 }
-	
